@@ -1,0 +1,15 @@
+{
+  "name": "monorepo-boilerplate",
+  "packageManager": "yarn@3.2.4",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/eslint": "^8",
+    "@types/prettier": "^2",
+    "eslint": "^8.25.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
